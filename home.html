@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VIDEO ANIMATION WITH FREEKY MENU PAGE</title>
+	<meta charset="UTF-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">Nature, Animals and The Waters</h2>
+			<div class="toggle"></div>
+		</header>5
+		<video src="video.MP4" muted loop autoplay></video>
+		
+		<div class="overlay"></div>
+		<div class="text">
+			<h2>Never Stop</h2>
+			<h3>Exploring The World</h3>
+			<p>We are more into move outised our comfotr zone as we may call it home and exprol the world and with our friends and family together we wmake new friends. Always with you every step of the way. </p>
+			<a href="#">Explore </a>
+		</div>
+		<ul class="social">
+			<li><a href="#"><img src="twitter.png" alt=""></a></li>
+			<li><a href="#"><img src="facebook.png" alt=""></a></li>
+			<li><a href="#"><img src="instagram.png" alt=""></a></li>
+			<li><a href="#"><img src="phone.png" alt=""></a></li>
+			<li><a href="#"><img src="location.png" alt=""></a></li>
+
+		</ul>
+
+	</section>
+
+	<div class="menu">
+		<ul>
+		    <li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Donet</a></li>
+			<li><a href="#">About Us</a></li>
+		    <li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+
+
+<script>
+	const menuToggle = document.querySelector('.toggle')
+	const showcase = document.querySelector('.showcase')
+
+	menuToggle.addEventListener('Click', fuction() {
+		menuToggle.classList.toggle('active')
+		showcase.classList.toggle('active')
+
+	})
+</script>
+</body>
+</html>
